@@ -33,6 +33,7 @@ ul {
 .header__logo {
 	float: left;
 	padding-top: 2px;
+	color: #000;
 }
 .header__logo:after {
 	content: "";
@@ -73,6 +74,9 @@ ul {
 .nav__item_subitem {
 	line-height: 30px;
 }
+.nav__item_subitem:hover {
+	text-decoration: underline;
+}
 .nav__list > .nav__item {
 	position: relative;
 }
@@ -83,12 +87,12 @@ ul {
 	top: 67px;
 	left: 0px;
 	display: none;
-	padding: 20px;
+	padding: 20px 20px 20px 40px;
 }
 .main {
 	padding: 70px 0 140px;
 }
-.main__title {
+.h1 {
 	font-size: 41px;
 	color: #fe470f;
 	text-align: center;
@@ -124,6 +128,10 @@ ul {
 	background-color: #fe470f;
 	cursor: pointer;
 }
+.features__item_btn:hover {
+	background-color: #e83600;	
+}
+
 .main__text_item {
 	width: 48%;
 	display: inline-block;
