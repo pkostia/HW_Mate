@@ -348,6 +348,7 @@ h1 {
 	padding: 5px 10px;
 	text-transform: uppercase;
 	position: relative;
+	display: inline-block;
 }
 .nav__item a:before {
 	content: '';
