@@ -36,7 +36,7 @@ p {
 /*GRID*/
 .wrap {
 	display: grid;
-	grid-template-columns: 100px 65% 35%;
+	grid-template-columns: 100px 0.65fr 0.35fr;
 	grid-template-rows: 100px 300px 150px;
 }
 .wrap > div {
