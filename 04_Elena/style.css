@@ -197,6 +197,7 @@
 
 body {
 	font-family: 'PT Sans Regular', sans-serif;
+	min-width: 300px;
 }
 
 * {
@@ -621,5 +622,27 @@ h1 {
 	}
 	.contact__item {
 		margin-bottom: 40px;
+	}
+}
+@media screen and (max-width: 494px) {
+	.company__list {
+		flex-direction: column;
+		text-align: center;
+	}
+}
+@media screen and (max-width: 401px) {
+	.nav__list {
+		justify-content: space-between;
+	}
+	.nav__item {
+		margin: 0;
+	}
+	.nav__item a {
+		padding: 5px 5px;
+	}
+}
+@media screen and (max-width: 340px) {
+	.nav__list {
+		flex-direction: column;
 	}
 }
