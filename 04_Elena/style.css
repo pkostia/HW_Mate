@@ -197,7 +197,7 @@
 
 body {
 	font-family: 'PT Sans Regular', sans-serif;
-	min-width: 300px;
+	min-width: 320px;
 }
 
 * {
@@ -599,6 +599,9 @@ h1 {
 	.offer__item {
 		margin-bottom: 40px;
 	}
+	.support .wrap {
+		padding: 0 50px;
+	}
 }
 @media screen and (max-width: 591px) {
 	.about__content {
@@ -639,6 +642,16 @@ h1 {
 	}
 	.nav__item a {
 		padding: 5px 5px;
+	}
+}
+@media screen and (max-width: 399px) {
+	.support__title {
+		padding-left: 50px;
+		line-height: 28px;
+	}
+	.support__title span {
+		position: absolute;
+		left: 50px;
 	}
 }
 @media screen and (max-width: 340px) {
