@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+@keyframes out {
+	0
+}
+.content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.box {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	background-color: #0000ff;
+	display: inline-block;
+	margin-right: 10px;
+}
+.cover {
+	position: absolute;
+	width: 100%;
+	height: 4px;
+	background-color: black;
+	left: 0;
+	transform-origin: left top;
+	transition: 0.5s linear 0.7s;
+}
+.present {
+	position: absolute;
+	font-size: 80px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	transition: 1s linear;
+	z-index: -1;
+}
+.box:hover .cover {
+	transform-origin: left top;
+	transform: rotate(-90deg);
+	transition: transform 1s linear;
+}
+.box:hover .present {
+	transform: translate(-50%, -170%);
+	transition: 0.5s linear 1s;
+}
