@@ -1,0 +1,43 @@
+.content {
+	position: absolute;
+	width: 700px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%)
+}
+.text {
+	font: 40px sans-serif;
+	fill: black;
+}
+.progress {
+	transform-origin: 50% 50%;
+	transform: rotate(-90deg);
+	stroke: orange;
+	stroke-dashoffset: 439;
+	stroke-dasharray: 439;
+} 
+.progress-30 {
+	animation: prog30 3s ease infinite;
+}
+.progress-60 {
+	animation: prog60 3s ease infinite;
+}
+.progress-90 {
+	animation: prog90 3s ease infinite;
+}
+
+@keyframes prog30 {
+	to {
+		stroke-dashoffset: 307;
+	}
+}
+@keyframes prog60 {
+	to {
+		stroke-dashoffset: 176;
+	}
+}
+@keyframes prog90 {
+	to {
+		stroke-dashoffset: 45;
+	}
+}

@@ -1,0 +1,10 @@
+#line {
+	stroke-dasharray: 525 100;
+  animation: dash 1s linear infinite;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 625;
+  }
+}
