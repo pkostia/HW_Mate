@@ -1,0 +1,108 @@
+body {
+  box-sizing: border-box; }
+
+.taskList {
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
+  color: #999999;
+  font-weight: 700;
+  font-size: 0.75rem;
+  list-style-type: none; }
+  .taskList-wrapper {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    width: 251px;
+    min-height: 241px;
+    position: absolute;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.35);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: #FFF; }
+    .taskList-wrapper:before {
+      position: absolute;
+      content: "";
+      height: 100%;
+      width: 3px;
+      background: transparent;
+      left: 40px;
+      border-right: 1px solid #ffcccc;
+      border-left: 1px solid #ffcccc; }
+  .taskList-item {
+    padding: 8px 0;
+    border-bottom: 1px solid #cccccc; }
+    .taskList-item input[type=checkbox] {
+      visibility: hidden;
+      opacity: 0;
+      height: 0;
+      width: 0; }
+      .taskList-item input[type=checkbox]:checked + .taskList-item__checkbox {
+        border-color: #cccccc;
+        position: relative; }
+        .taskList-item input[type=checkbox]:checked + .taskList-item__checkbox:before {
+          content: "\2713";
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          line-height: 1; }
+    .taskList-item__checkbox {
+      width: 17px;
+      height: 17px;
+      display: inline-block;
+      vertical-align: middle;
+      border: 1px solid #66cccc;
+      cursor: pointer; }
+    .taskList-item__text {
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 20px; }
+    .taskList-item .is-icons {
+      display: inline-flex;
+      justify-content: space-between;
+      width: calc(100% - 70px); }
+      .taskList-item .is-icons i {
+        cursor: pointer; }
+      .taskList-item .is-icons .fa-trash {
+        margin-left: 10px; }
+      .taskList-item .is-icons .fa-cog {
+        position: relative; }
+        .taskList-item .is-icons .fa-cog:after {
+          position: absolute;
+          top: -35px;
+          left: -26px;
+          content: "Settings";
+          font-family: "Helvetica", sans-serif;
+          font-weight: 400;
+          display: none;
+          border: none;
+          color: white;
+          background-color: #555555;
+          padding: 9px 10px; }
+
+.nav {
+  margin-left: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 70px);
+  padding: 5px 0; }
+  .nav__item {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    color: #d7d8da;
+    background: transparent;
+    border-radius: 5px;
+    cursor: pointer; }
+    .nav__item:hover {
+      color: #999999;
+      background: #f1f0f0; }
+    .nav__item span:first-of-type {
+      margin-right: 5px; }
+    .nav__item_arrow:first-of-type {
+      transform: rotate(180deg); }
+
+.fa-cog:hover:after {
+  display: block !important; }
