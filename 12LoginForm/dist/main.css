@@ -16,6 +16,20 @@ a {
   text-decoration: none;
   color: black; }
 
+input {
+  background-color: #fbfbfb;
+  border: 1px solid #edeaea;
+  height: 20px;
+  line-height: 20px; }
+
+textarea {
+  background-color: #fbfbfb;
+  border: 1px solid #edeaea; }
+
+select {
+  background-color: #fbfbfb;
+  border: 1px solid #edeaea; }
+
 .section {
   background-color: #fec107;
   padding: 50px;
@@ -25,7 +39,8 @@ a {
   width: 800px;
   margin: 0px auto;
   background-color: #ffffff;
-  padding: 50px 100px; }
+  padding: 50px 100px;
+  box-shadow: -8px 15px 44px 0px rgba(0, 0, 0, 0.5); }
 
 .forms {
   display: flex;
@@ -50,10 +65,11 @@ a {
     width: 100%; }
   .login__item span {
     position: absolute;
-    bottom: 2px;
-    right: 5px; }
+    bottom: 4px;
+    right: 5px;
+    font-size: 12px; }
   .login__item i {
-    color: #bebebe; }
+    color: #646464; }
 
 .login__btns {
   display: flex;
@@ -86,8 +102,8 @@ a {
   width: 50%;
   text-align: center;
   text-decoration: none;
-  height: 20px;
-  line-height: 20ph;
+  height: 25px;
+  line-height: 25px;
   color: white;
   border: none;
   cursor: pointer; }
@@ -109,17 +125,21 @@ a {
   .socials__link {
     display: block;
     width: 100%;
-    height: 100%;
+    height: 20px;
     color: white;
     text-align: center; }
     .socials__link_icon {
       display: inline-block;
-      width: 25%; }
+      width: 25%;
+      vertical-align: middle; }
       .socials__link_icon i {
         fill: white; }
     .socials__link_text {
+      vertical-align: middle;
       display: inline-block;
-      width: 75%; }
+      width: 75%;
+      font-size: 10px;
+      height: 20px; }
     .socials__link--t .socials__link_icon {
       background-color: #70b5de; }
     .socials__link--t .socials__link_text {
