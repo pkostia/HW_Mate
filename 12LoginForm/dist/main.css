@@ -161,12 +161,12 @@ select {
   margin-bottom: 10px; }
   .reg__item textarea {
     width: 100%;
-    max-width: 173px; }
+    max-width: 171px; }
   .reg__item--adress {
     align-items: flex-start; }
 
 .reg__date {
-  max-width: 173px; }
+  max-width: 171px; }
   .reg__date input {
     max-width: 20px;
     text-align: center;
@@ -174,7 +174,7 @@ select {
     height: 19px;
     line-height: 19px; }
     .reg__date input:last-of-type {
-      max-width: 24px; }
+      max-width: 22px; }
   .reg__date label {
     font-size: 12px; }
   .reg__date select {
@@ -182,8 +182,8 @@ select {
     color: #6a6a6a; }
 
 .reg__down {
-  max-width: 173px;
-  margin-left: 127px; }
+  max-width: 171px;
+  margin-left: 129px; }
   .reg__down_item input {
     margin: 10px 0; }
   .reg__down_agree {

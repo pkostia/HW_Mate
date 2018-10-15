@@ -162,14 +162,14 @@
 		margin-bottom: 10px;
 		textarea {
 			width: 100%;
-			max-width: 173px;
+			max-width: 171px;
 		}
 		&--adress {
 			align-items: flex-start;
 		}
 	}
 	&__date {
-		max-width: 173px;
+		max-width: 171px;
 		input {
 			max-width: 20px;
 			text-align: center;
@@ -177,7 +177,7 @@
 			height: 19px;
 			line-height: 19px;
 			&:last-of-type {
-				max-width: 24px;
+				max-width: 22px;
 			}
 		}
 		label {
@@ -189,8 +189,8 @@
 		}
 	}
 	&__down {
-		max-width: 173px;
-		margin-left: 127px;
+		max-width: 171px;
+		margin-left: 129px;
 		&_item {
 			input {
 				margin: 10px 0;
