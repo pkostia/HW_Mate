@@ -20,7 +20,9 @@ input {
   background-color: #fbfbfb;
   border: 1px solid #edeaea;
   height: 20px;
-  line-height: 20px; }
+  line-height: 20px;
+  width: 171px;
+}
 
 textarea {
   background-color: #fbfbfb;
