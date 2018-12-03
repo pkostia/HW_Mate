@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Test</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&amp;subset=cyrillic" rel="stylesheet">
+	<link href='style.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="menu">
+			<ul class="menu__list">
+				<li class="menu__item"><a href="#" class="menu__link">store</a></li>
+				<li class="menu__item"><a href="#" class="menu__link">followers</a></li>
+				<li class="menu__item"><a href="#" class="menu__link">following</a></li>
+				<li class="menu__item"><a href="#" class="menu__link active">seller feadback</a></li>
+			</ul>
+			<hr class="menu__line">
+		</div>
+		<div class="content">
+			<div class="feadback">
+				<div class="feadback__my">
+					<h3 class="feadback__title">Your feedback</h3>
+					<div class="comment">
+						<div class="user">
+							<div class="user__photo"><span class="is--active"></span></div>
+							<div class="user__info">
+								<h4 class="user__name">Nad*****hda</h4>
+								<span class="user__like">
+									<i class="fas fa-thumbs-up thumb active" data-rate='1'></i>
+									<i class="fas fa-thumbs-up thumb active" data-rate='2'></i>
+									<i class="fas fa-thumbs-up thumb active" data-rate='3'></i>
+									<i class="fas fa-thumbs-up thumb" data-rate='4'></i>
+									<i class="fas fa-thumbs-up thumb" data-rate='5'></i>
+								</span>
+								<textarea class="user__comment" placeholder="Your comment"></textarea>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="feadback__all">
+					<h3 class="feadback__title">All feedbacks</h3>
+					<div class="comment" data-comment='1'>
+						<div class="user">
+							<div class="user__photo"><span class="is--active"></span></div>
+							<div class="user__info">
+								<h4 class="user__name">Arn*****old</h4>
+								<span class="user__like">
+									<i class="fas fa-thumbs-up thumb active" data-rate='1'></i>
+									<i class="fas fa-thumbs-up thumb active" data-rate='2'></i>
+									<i class="fas fa-thumbs-up thumb active" data-rate='3'></i>
+								</span>
+								<div class="user__text">
+									<p>fskjfgklgjk dfjg kmjskfjsghfsg v kjskgjsdkghdk snvkx  ljskjgfksvk xvfskjfgklgjk dfjg kmjskfjsghfsg v kjskgjsdkghdk snvkx  ljskjgfksvk xvfskjfgklgjk dfjg kmjskfjsghfsg v kjskgjsdkghdk snvkx  ljskjgfksvk xvfskjfgklgjk dfjg kmjskfjsghfsg v kjskgjsdkghdk snvkx  ljskjgfksvk xvfskjfgklgjk dfjg kmjskfjsghfsg v kjskgjsdkghdk snvkx  ljskjgfksvk xv</p>
+								</div>
+								<div class="user__footer">
+									<span>Like</span>
+									<span class="js-reply">Reply</span>
+									<span class="user__time">2 days ago</span>
+								</div>
+							</div>
+						</div>
+						<div class="user__reply" data-reply='1'>
+							<svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M7.36437 12.3403H17.0165L13.4318 15.8768L14.5338 16.964L20 11.5715L14.5339 6.17896L13.4318 7.26619L17.0165 10.8027H7.36433C4.18452 10.8027 1.59754 8.25054 1.59754 5.11353C1.59754 3.63815 2.3538 2.38438 2.98823 1.59246L3.47138 0.989305L2.24854 0.0359192L1.76538 0.639074C0.977779 1.62227 0.038908 3.19665 0.038908 5.11353C0.0389862 9.09842 3.32515 12.3403 7.36437 12.3403Z" fill="white"/>
+							</svg>
+							<div class="user__photo is--little"><span class="is--active"></span></div>
+							<textarea class="user__comment is--little" placeholder="Your comment"></textarea>
+						</div>
+					</div>
+					<div class="comment" data-comment='2'>
+						<div class="user">
+							<div class="user__photo"><span class="is--active"></span></div>
+							<div class="user__info">
+								<h4 class="user__name">Nad*****hda</h4>
+								<span class="user__like">
+									<i class="fas fa-thumbs-up thumb active" data-rate='1'></i>
+									<i class="fas fa-thumbs-up thumb active" data-rate='2'></i>
+									<i class="fas fa-thumbs-up thumb active" data-rate='3'></i>
+								</span>
+								<div class="user__option">
+									<span>Edit</span>
+									<span>Delete</span>
+								</div>
+								<div class="user__text">
+									<p><span>My comment</span> dfjg kmjskfjsghfsg v kjskgjsdkghdk snvkx  ljskjgfksvk xvfskjfgklgjk dfjg kmjs kfjsghfsg v kjskgjsdkghdk snvkx  ljskjgfksvk xvfskjfgklgjk dfjg kmjskfjsghfsg v kjsk gjs dkghdk snvkx  ljskjgfksvk xvfskjfgklgjk dfjg kmjskfjsghfsg v kjskgjsdkghdk snvkx  ljs kjg fk svk xvfskjfgklgjk dfjg kmjskfjsghfsg v kjskgjsdkghdk snvkx  ljskjgfksvk xv</p>
+								</div>
+								<div class="user__footer">
+									<span>Like</span>
+									<span class="js-reply">Reply</span>
+									<span class="user__time">56 min</span>
+								</div>
+							</div>
+						</div>
+						<div class="user__reply" data-reply='2'>
+							<svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M7.36437 12.3403H17.0165L13.4318 15.8768L14.5338 16.964L20 11.5715L14.5339 6.17896L13.4318 7.26619L17.0165 10.8027H7.36433C4.18452 10.8027 1.59754 8.25054 1.59754 5.11353C1.59754 3.63815 2.3538 2.38438 2.98823 1.59246L3.47138 0.989305L2.24854 0.0359192L1.76538 0.639074C0.977779 1.62227 0.038908 3.19665 0.038908 5.11353C0.0389862 9.09842 3.32515 12.3403 7.36437 12.3403Z" fill="white"/>
+							</svg>
+							<div class="user__photo is--little"><span class="is--active"></span></div>
+							<textarea class="user__comment is--little" placeholder="Your comment"></textarea>
+						</div>
+					</div>
+					<div class="comment" data-comment='3'>
+						<div class="user">
+							<div class="user__photo"><span class="is--active"></span></div>
+							<div class="user__info">
+								<h4 class="user__name">Nad*****hda</h4>
+								<span class="user__like">
+									<i class="fas fa-thumbs-up thumb active" data-rate='1'></i>
+									<i class="fas fa-thumbs-up thumb active" data-rate='2'></i>
+									<i class="fas fa-thumbs-up thumb active" data-rate='3'></i>
+									<i class="fas fa-thumbs-up thumb" data-rate='4'></i>
+									<i class="fas fa-thumbs-up thumb" data-rate='5'></i>
+								</span>
+								<div class="user__text">
+									<p>fskjfgklgjk dfjg kmjskfjsghfsg v kjskgjsdkghdk snvkx  ljskjgfksvk xvfskjfgklgjk dfjg kmjs kfjsghfsg v kjskgjsdkghdk snvkx  ljskjgfksvk xvfskjfgklgjk dfjg kmjskfjsghfsg v kjsk gjs dkghdk snvkx  ljskjgfksvk xvfskjfgklgjk dfjg kmjskfjsghfsg v kjskgjsdkghdk snvkx  ljs kjg fk svk xvfskjfgklgjk dfjg kmjskfjsghfsg v kjskgjsdkghdk snvkx  ljskjgfksvk xv</p>
+								</div>
+								<div class="user__footer">
+									<span>Like</span>
+									<span class='js-reply'>Reply</span>
+									<span class="user__time">5 hrs</span>
+								</div>
+							</div>
+						</div>
+						<div class="user__thread" data-reply='3'>
+							<div class="user__thread_title" data-title='3'><span class="user__thread_shape"><svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M7.36437 12.3403H17.0165L13.4318 15.8768L14.5338 16.964L20 11.5715L14.5339 6.17896L13.4318 7.26619L17.0165 10.8027H7.36433C4.18452 10.8027 1.59754 8.25054 1.59754 5.11353C1.59754 3.63815 2.3538 2.38438 2.98823 1.59246L3.47138 0.989305L2.24854 0.0359192L1.76538 0.639074C0.977779 1.62227 0.038908 3.19665 0.038908 5.11353C0.0389862 9.09842 3.32515 12.3403 7.36437 12.3403Z" fill="white"/>
+									</svg></span>
+								<div class="user__photo is--little"><span class="is--active"></span></div>
+								<div class="user__photo is--little"><span class="is--active"></span></div>
+								<div class="user__photo is--little"><span class="is--active"></span></div>
+								<div class="user__photo is--little"><span class="is--active"></span></div>
+								<div class="user__photo is--little is--noname">+</div>
+								<span class="user__thread_replies">8 replies</span>
+								<span class="text-const">View thread</span>
+								<span class='text-change'>Last reply 15 hours ago</span>
+								<span class="user__thread_arrow"><svg width="6" height="12" viewBox="0 0 6 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path opacity="0.5" d="M0.43789 12C0.325818 12 0.213746 11.9548 0.128379 11.8648C-0.042793 11.6843 -0.042793 11.3926 0.128379 11.2122L5.07223 6.00006L0.128379 0.787954C-0.042793 0.607494 -0.042793 0.315805 0.128379 0.135345C0.299551 -0.0451149 0.576229 -0.0451149 0.747401 0.135345L5.781 5.44206C6.073 5.74991 6.073 6.25021 5.781 6.55805L0.747401 11.8648C0.662033 11.9548 0.549962 12 0.43789 12Z" fill="white"/>
+								</svg>
+								</span>
+							</div>
+							<div class="mess" data-mess='3'>
+								<div class="mess__wrap">
+									<div class="mess__title">
+										<span class='mess__title_arr'><svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.36437 12.3403H17.0165L13.4318 15.8768L14.5338 16.964L20 11.5715L14.5339 6.17896L13.4318 7.26619L17.0165 10.8027H7.36433C4.18452 10.8027 1.59754 8.25054 1.59754 5.11353C1.59754 3.63815 2.3538 2.38438 2.98823 1.59246L3.47138 0.989305L2.24854 0.0359192L1.76538 0.639074C0.977779 1.62227 0.038908 3.19665 0.038908 5.11353C0.0389862 9.09842 3.32515 12.3403 7.36437 12.3403Z" fill="white"/>
+</svg></span>
+										<span class="mess__count">8 replies</span>
+									</div>
+									<div class="mess__item">
+										<div class="user__photo is--little"><span class="is--active"></span></div>
+										<div class="mess__info">
+											<h4 class="user__name">Nad*****hda</h4>
+											<div class="user__option">
+												<span>Edit</span>
+												<span>Delete</span>
+											</div>
+											<div class="user__text">
+												<p><span>My comment</span> hdk snvkx  ljskjgfksvk xvfskjfgklgjk dfjg kmjskfjsghfsg v kjsk gjs dkghdk snvkx  ljskjgf ksvk xvfskjfgklgjk dfjg kmjskfjsghf</p>
+											</div>
+											<div class="user__footer">
+												<span>Like</span>
+												<span class="user__time">5 hrs</span>
+											</div>
+										</div>
+									</div>
+									<div class="mess__item">
+										<div class="user__photo is--little"><span class="is--active"></span></div>
+										<div class="mess__info">
+											<h4 class="user__name">Nad*****hda</h4>
+											<div class="user__text">
+												<p><span>My comment</span> hdk snvkx  ljskjgfksvk xvfskjfgklgjk dfjg kmjskfjsghfsg v kjsk gjs dkghdk snvkx  ljskjgf ksvk xvfskjfgklgjk dfjg kmjskfjsghf</p>
+											</div>
+											<div class="user__footer">
+												<span>Like</span>
+												<span class="user__time">5 hrs</span>
+											</div>
+										</div>
+									</div>
+									<div class="mess__item">
+										<div class="user__photo is--little"><span class="is--active"></span></div>
+										<div class="mess__info">
+											<h4 class="user__name">Nad*****hda</h4>
+											<div class="user__text">
+												<p><span>My comment</span> hdk snvkx  ljskjgfksvk xvfskjfgklgjk dfjg kmjskfjsghfsg v kjsk gjs dkghdk snvkx  ljskjgf ksvk xvfskjfgklgjk dfjg kmjskfjsghf</p>
+											</div>
+											<div class="user__footer">
+												<span>Like</span>
+												<span class="user__time">5 hrs</span>
+											</div>
+										</div>
+									</div>
+									<div class="mess__item">
+										<div class="user__photo is--little"><span class="is--active"></span></div>
+										<div class="mess__info">
+											<h4 class="user__name">Nad*****hda</h4>
+											<div class="user__text">
+												<p><span>My comment</span> hdk snvkx  ljskjgfksvk xvfskjfgklgjk dfjg kmjskfjsghfsg v kjsk gjs dkghdk snvkx  ljskjgf ksvk xvfskjfgklgjk dfjg kmjskfjsghf</p>
+											</div>
+											<div class="user__footer">
+												<span>Like</span>
+												<span class="user__time">5 hrs</span>
+											</div>
+										</div>
+									</div>
+									<div class="mess__item">
+										<div class="user__photo is--little"><span class="is--active"></span></div>
+										<div class="mess__info">
+											<h4 class="user__name">Nad*****hda</h4>
+											<div class="user__text">
+												<p><span>My comment</span> hdk snvkx  ljskjgfksvk xvfskjfgklgjk dfjg kmjskfjsghfsg v kjsk gjs dkghdk snvkx  ljskjgf ksvk xvfskjfgklgjk dfjg kmjskfjsghf</p>
+											</div>
+											<div class="user__footer">
+												<span>Like</span>
+												<span class="user__time">5 hrs</span>
+											</div>
+										</div>
+									</div>
+									<div class="mess__item">
+										<div class="user__photo is--little"><span class="is--active"></span></div>
+										<div class="mess__info">
+											<h4 class="user__name">Nad*****hda</h4>
+											<div class="user__text">
+												<p><span>My comment</span> hdk snvkx  ljskjgfksvk xvfskjfgklgjk dfjg kmjskfjsghfsg v kjsk gjs dkghdk snvkx  ljskjgf ksvk xvfskjfgklgjk dfjg kmjskfjsghf</p>
+											</div>
+											<div class="user__footer">
+												<span>Like</span>
+												<span class="user__time">5 hrs</span>
+											</div>
+										</div>
+									</div>
+									<div class="user__reply" data-reply=''>
+										<svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M7.36437 12.3403H17.0165L13.4318 15.8768L14.5338 16.964L20 11.5715L14.5339 6.17896L13.4318 7.26619L17.0165 10.8027H7.36433C4.18452 10.8027 1.59754 8.25054 1.59754 5.11353C1.59754 3.63815 2.3538 2.38438 2.98823 1.59246L3.47138 0.989305L2.24854 0.0359192L1.76538 0.639074C0.977779 1.62227 0.038908 3.19665 0.038908 5.11353C0.0389862 9.09842 3.32515 12.3403 7.36437 12.3403Z" fill="white"/>
+										</svg>
+										<div class="user__photo is--little"><span class="is--active"></span></div>
+										<textarea class="user__comment is--little" placeholder="Your comment"></textarea>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="comment" data-comment='4'>
+						<div class="user">
+							<div class="user__photo"><span class="is--active"></span></div>
+							<div class="user__info">
+								<h4 class="user__name">Nad*****hda</h4>
+								<span class="user__like">
+									<i class="fas fa-thumbs-up thumb active" data-rate='1'></i>
+									<i class="fas fa-thumbs-up thumb active" data-rate='2'></i>
+									<i class="fas fa-thumbs-up thumb active" data-rate='3'></i>
+								</span>
+								<div class="user__text">
+									<p>fskjfgklgjk dfjg kmjskfjsghfsg v kjskgjsdkghdk snvkx  ljskjgfksvk xvfskjfgklgjk dfjg kmjs kfjsghfsg v kjskgjsdkghdk snvkx  ljskjgfksvk xvfskjfgklgjk dfjg kmjskfjsghfsg v kjsk gjs dkghdk snvkx  ljskjgfksvk xvfskjfgklgjk dfjg kmjskfjsghfsg v kjskgjsdkghdk snvkx  ljs kjg fk svk xvfskjfgklgjk dfjg kmjskfjsghfsg v kjskgjsdkghdk snvkx  ljskjgfksvk xv</p>
+								</div>
+								<div class="user__footer">
+									<span>Like</span>
+									<span class='js-reply'>Reply</span>
+									<span class="user__time">5 hrs</span>
+								</div>
+							</div>
+						</div>
+						<div class="user__thread" data-reply='4'>
+							<div class="user__thread_title" data-title='4'><span class="user__thread_shape"><svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M7.36437 12.3403H17.0165L13.4318 15.8768L14.5338 16.964L20 11.5715L14.5339 6.17896L13.4318 7.26619L17.0165 10.8027H7.36433C4.18452 10.8027 1.59754 8.25054 1.59754 5.11353C1.59754 3.63815 2.3538 2.38438 2.98823 1.59246L3.47138 0.989305L2.24854 0.0359192L1.76538 0.639074C0.977779 1.62227 0.038908 3.19665 0.038908 5.11353C0.0389862 9.09842 3.32515 12.3403 7.36437 12.3403Z" fill="white"/>
+									</svg></span>
+								<div class="user__photo is--little"><span class="is--active"></span></div>
+								<div class="user__photo is--little"><span class="is--active"></span></div>
+								<div class="user__photo is--little"><span class="is--active"></span></div>
+								<div class="user__photo is--little"><span class="is--active"></span></div>
+								<div class="user__photo is--little is--noname">+</div>
+								<span class="user__thread_replies">6 replies</span>
+								<span class="text-const">View thread</span>
+								<span class="text-change">Last reply 23 hours ago</span>
+								<span class="user__thread_arrow"><svg width="6" height="12" viewBox="0 0 6 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path opacity="0.5" d="M0.43789 12C0.325818 12 0.213746 11.9548 0.128379 11.8648C-0.042793 11.6843 -0.042793 11.3926 0.128379 11.2122L5.07223 6.00006L0.128379 0.787954C-0.042793 0.607494 -0.042793 0.315805 0.128379 0.135345C0.299551 -0.0451149 0.576229 -0.0451149 0.747401 0.135345L5.781 5.44206C6.073 5.74991 6.073 6.25021 5.781 6.55805L0.747401 11.8648C0.662033 11.9548 0.549962 12 0.43789 12Z" fill="white"/>
+								</svg>
+								</span>
+							</div>
+							<div class="mess" data-mess='4'>
+								<div class="mess__wrap">
+									<div class="mess__title">
+										<span class='mess__title_arr'><svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.36437 12.3403H17.0165L13.4318 15.8768L14.5338 16.964L20 11.5715L14.5339 6.17896L13.4318 7.26619L17.0165 10.8027H7.36433C4.18452 10.8027 1.59754 8.25054 1.59754 5.11353C1.59754 3.63815 2.3538 2.38438 2.98823 1.59246L3.47138 0.989305L2.24854 0.0359192L1.76538 0.639074C0.977779 1.62227 0.038908 3.19665 0.038908 5.11353C0.0389862 9.09842 3.32515 12.3403 7.36437 12.3403Z" fill="white"/>
+</svg></span>
+										<span class="mess__count">6 replies</span>
+									</div>
+									<div class="mess__item">
+										<div class="user__photo is--little"><span class="is--active"></span></div>
+										<div class="mess__info">
+											<h4 class="user__name">Nad*****hda</h4>
+											<div class="user__option">
+												<span>Edit</span>
+												<span>Delete</span>
+											</div>
+											<div class="user__text">
+												<p><span>My comment</span> hdk snvkx  ljskjgfksvk xvfskjfgklgjk dfjg kmjskfjsghfsg v kjsk gjs dkghdk snvkx  ljskjgf ksvk xvfskjfgklgjk dfjg kmjskfjsghf</p>
+											</div>
+											<div class="user__footer">
+												<span>Like</span>
+												<span class="user__time">5 hrs</span>
+											</div>
+										</div>
+									</div>
+									<div class="mess__item">
+										<div class="user__photo is--little"><span class="is--active"></span></div>
+										<div class="mess__info">
+											<h4 class="user__name">Nad*****hda</h4>
+											<div class="user__text">
+												<p><span>My comment</span> hdk snvkx  ljskjgfksvk xvfskjfgklgjk dfjg kmjskfjsghfsg v kjsk gjs dkghdk snvkx  ljskjgf ksvk xvfskjfgklgjk dfjg kmjskfjsghf</p>
+											</div>
+											<div class="user__footer">
+												<span>Like</span>
+												<span class="user__time">5 hrs</span>
+											</div>
+										</div>
+									</div>
+									<div class="mess__item">
+										<div class="user__photo is--little"><span class="is--active"></span></div>
+										<div class="mess__info">
+											<h4 class="user__name">Nad*****hda</h4>
+											<div class="user__text">
+												<p><span>My comment</span> hdk snvkx  ljskjgfksvk xvfskjfgklgjk dfjg kmjskfjsghfsg v kjsk gjs dkghdk snvkx  ljskjgf ksvk xvfskjfgklgjk dfjg kmjskfjsghf</p>
+											</div>
+											<div class="user__footer">
+												<span>Like</span>
+												<span class="user__time">5 hrs</span>
+											</div>
+										</div>
+									</div>
+									<div class="mess__item">
+										<div class="user__photo is--little"><span class="is--active"></span></div>
+										<div class="mess__info">
+											<h4 class="user__name">Nad*****hda</h4>
+											<div class="user__text">
+												<p><span>My comment</span> hdk snvkx  ljskjgfksvk xvfskjfgklgjk dfjg kmjskfjsghfsg v kjsk gjs dkghdk snvkx  ljskjgf ksvk xvfskjfgklgjk dfjg kmjskfjsghf</p>
+											</div>
+											<div class="user__footer">
+												<span>Like</span>
+												<span class="user__time">5 hrs</span>
+											</div>
+										</div>
+									</div>
+									<div class="mess__item">
+										<div class="user__photo is--little"><span class="is--active"></span></div>
+										<div class="mess__info">
+											<h4 class="user__name">Nad*****hda</h4>
+											<div class="user__text">
+												<p><span>My comment</span> hdk snvkx  ljskjgfksvk xvfskjfgklgjk dfjg kmjskfjsghfsg v kjsk gjs dkghdk snvkx  ljskjgf ksvk xvfskjfgklgjk dfjg kmjskfjsghf</p>
+											</div>
+											<div class="user__footer">
+												<span>Like</span>
+												<span class="user__time">5 hrs</span>
+											</div>
+										</div>
+									</div>
+									<div class="mess__item">
+										<div class="user__photo is--little"><span class="is--active"></span></div>
+										<div class="mess__info">
+											<h4 class="user__name">Nad*****hda</h4>
+											<div class="user__text">
+												<p><span>My comment</span> hdk snvkx  ljskjgfksvk xvfskjfgklgjk dfjg kmjskfjsghfsg v kjsk gjs dkghdk snvkx  ljskjgf ksvk xvfskjfgklgjk dfjg kmjskfjsghf</p>
+											</div>
+											<div class="user__footer">
+												<span>Like</span>
+												<span class="user__time">5 hrs</span>
+											</div>
+										</div>
+									</div>
+									<div class="mess__reply" data-reply='1'>
+										<svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M7.36437 12.3403H17.0165L13.4318 15.8768L14.5338 16.964L20 11.5715L14.5339 6.17896L13.4318 7.26619L17.0165 10.8027H7.36433C4.18452 10.8027 1.59754 8.25054 1.59754 5.11353C1.59754 3.63815 2.3538 2.38438 2.98823 1.59246L3.47138 0.989305L2.24854 0.0359192L1.76538 0.639074C0.977779 1.62227 0.038908 3.19665 0.038908 5.11353C0.0389862 9.09842 3.32515 12.3403 7.36437 12.3403Z" fill="white"/>
+										</svg>
+										<div class="user__photo is--little"><span class="is--active"></span></div>
+										<textarea class="user__comment is--little" placeholder="Your comment"></textarea>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
